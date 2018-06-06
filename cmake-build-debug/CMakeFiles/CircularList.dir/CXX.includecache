@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/etudiant/Bureau/Exemple/CircularList/CircularList.cpp
+CircularList.h
+/home/etudiant/Bureau/Exemple/CircularList/CircularList.h
+
+/home/etudiant/Bureau/Exemple/CircularList/CircularList.h
+stdexcept
+-
+
+/home/etudiant/Bureau/Exemple/CircularList/main.cpp
+iostream
+-
+CircularList.h
+/home/etudiant/Bureau/Exemple/CircularList/CircularList.h
+
